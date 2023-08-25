@@ -8,7 +8,6 @@ import { Component, OnInit } from '@angular/core';
 export class CriarPensamentoComponent implements OnInit {
 
   //Adicionar comportamento
-
   //Objeto pensamento
   pensamento = {
     id: '1',
@@ -22,4 +21,7 @@ export class CriarPensamentoComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  criarPensamento(){
+    alert("Novo pensamento criado!")
+  }
 }
