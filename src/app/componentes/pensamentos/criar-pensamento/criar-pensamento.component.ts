@@ -7,8 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CriarPensamentoComponent implements OnInit {
 
-  //Adicionar comportamento
-  //Objeto pensamento
+  //Adicionar comportamento: Objeto pensamento
   pensamento = {
     id: '1',
     conteudo: 'Aprendendo Angular',
