@@ -11,11 +11,11 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
-    path: 'criarpensamento',
+    path: 'criarPensamento',
     component: CriarPensamentoComponent
   },
   {
-    path: 'listarpensamento',
+    path: 'listarPensamento',
     component: ListarPensamentoComponent
   }
 ];
