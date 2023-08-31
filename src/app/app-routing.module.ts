@@ -17,11 +17,15 @@ const routes: Routes = [
   {
     path: 'listarPensamento',
     component: ListarPensamentoComponent
+  },
+  {
+    path: 'pensamentos/excluirPensamento/:id',
+    component: ExcluirPensamentoComponent
   }
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+exports: [RouterModule]
 })
 export class AppRoutingModule { }
