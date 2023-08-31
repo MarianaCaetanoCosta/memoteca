@@ -18,6 +18,8 @@ export class ListarPensamentoComponent implements OnInit {
 
   //Ciclo de vida do componete: logica de programação a ser executada no carregamento do componente
   ngOnInit(): void {
-    this.service.lista();
+    this.service.listar().subscribe((listaPensamentos) => {
+      this.listaPensamentos = listaPensamentos;
+    })
   }
 }

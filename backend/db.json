@@ -1,5 +1,5 @@
 {
-  "pensamentos":[
+  "pensamentos": [
     {
       "id": 1,
       "conteudo": "Que bom que você veio",
@@ -17,6 +17,30 @@
       "conteudo": "Utiizando simulador Json",
       "autoria": "Costa",
       "modelo": "modelo3"
+    },
+    {
+      "conteudo": "Não desista",
+      "autoria": "Dev FullStack",
+      "modelo": "modelo3",
+      "id": 4
+    },
+    {
+      "conteudo": "Continue praticando",
+      "autoria": ".NET e Angular",
+      "modelo": "modelo2",
+      "id": 5
+    },
+    {
+      "conteudo": "Siga firme na caminhada",
+      "autoria": "DEV",
+      "modelo": "modelo1",
+      "id": 6
+    },
+    {
+      "conteudo": "Já deu certo :D ",
+      "autoria": "Deus",
+      "modelo": "modelo2",
+      "id": 7
     }
   ]
 }
