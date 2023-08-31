@@ -1,5 +1,5 @@
 <!-- uso de interpolação para renderizar o modelo criado no component.ts -->
-<div class="pensamento {{ pensamento.modelo }}" ff-roboto-mono pensamento-p>
+<div class="pensamento {{ pensamento.modelo }}" ff-roboto-mono pensamento-p [ngClass]="larguraPensamento()">
   <img src="/assets/imagens/{{ pensamento.modelo }}.png" alt="Aspas coloridas">
   <p class="conteudo"> {{ pensamento.conteudo}} </p>
   <p class="autoria"><b> {{ pensamento.autoria}} </b></p>
