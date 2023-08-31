@@ -1,10 +1,18 @@
 <section class="container">
+
   <header class="header d-flex">
     <h2 class="ff-inter">Meu Mural</h2>
     <button
-        routerLink="/criarPensamento"
-        class="botao"
+      routerLink="/criarPensamento"
+      class="botao"
       >Adicionar pensamentos
     </button>
   </header>
+
+  <div class="mural">
+    <!-- *ngfor: mostra vários elementos com a mesmo estrutura basica. -->
+    <div *ngFor="let pensamento of listaPensamentos">
+      <app-pensamento></app-pensamento>
+    </div>
+  </div>
 </section>
