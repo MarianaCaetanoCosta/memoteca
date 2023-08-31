@@ -12,7 +12,8 @@
   <div class="mural">
     <!-- *ngfor: mostra vários elementos com a mesmo estrutura basica. -->
     <div *ngFor="let pensamento of listaPensamentos">
-      <app-pensamento></app-pensamento>
+      <app-pensamento [pensamento]="pensamento"></app-pensamento>
     </div>
   </div>
+
 </section>

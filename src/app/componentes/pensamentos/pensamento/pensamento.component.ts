@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-pensamento',
@@ -7,8 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PensamentoComponent implements OnInit {
 
-  //Atributo
-  pensamento = {
+  //Input é um decorator - informa para o componente "filho" que passará a receber informações do componente "pai".
+  @Input() pensamento = {
     conteudo: 'I love angular',
     autoria: 'Mariana',
     modelo: 'modelo3'
