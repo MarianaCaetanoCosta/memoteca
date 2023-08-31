@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Pensamento } from '../i-pensamento';
+import { PensamentosService } from '../pensamentos.service';
 
 @Component({
   selector: 'app-listar-pensamento',
@@ -11,8 +12,12 @@ export class ListarPensamentoComponent implements OnInit {
   //objeto array - lista de pensamentos
   listaPensamentos: Pensamento[] = [];
 
-  constructor() { }
+  // Consumir JsonServer - CRUD
+  constructor(
+    private service: PensamentosService){}
 
+  //Ciclo de vida do componete: logica de programação a ser executada no carregamento do componente
   ngOnInit(): void {
+    this.service.lista();
   }
 }
