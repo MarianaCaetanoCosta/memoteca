@@ -2,39 +2,45 @@
   "pensamentos": [
     {
       "id": 1,
-      "conteudo": "Que bom que você veio",
-      "autoria": "Mariana",
+      "conteudo": "Olá 👋, sou Mariana Caetano | ✨ Seja Bem-vindo(a)!✨ | 🦸🏻‍♀️ Um pouco sobre mim: 🎓 Análise e Desenvolvimento de Sistemas 🚀 Desenvolvedora de Softwares",
+      "autoria": "Mariana Caetano Costa",
       "modelo": "modelo1"
     },
     {
       "id": 2,
-      "conteudo": "Estudando angular",
-      "autoria": "Caetano",
+      "conteudo": "ANGULAR 14: APLIQUE OS CONCEITOS E DESENVOLVA SEU PRIMEIRO CRUD | * Conhecendo o Angular * Entendendo o fluxo de dados * Navegação com roteamento * Diretivas * Comunicação com o Backend * Requisições HTTP | Foram feitas 54 de 54 atividades.",
+      "autoria": "Alura Cursos",
       "modelo": "modelo2"
     },
     {
-      "conteudo": "Não desista",
-      "autoria": "Dev FullStack",
-      "modelo": "modelo3",
+      "conteudo": "”Toda empresa precisa ter gente que erra, que não tem medo de errar e que aprende com erro”.",
+      "autoria": "Bill Gates",
+      "modelo": "modelo2",
       "id": 4
     },
     {
-      "conteudo": "Continue praticando",
-      "autoria": ".NET e Angular",
-      "modelo": "modelo2",
+      "conteudo": "“Persistência é irmã gêmea da excelência. Uma é mãe da qualidade, a outra a mãe do tempo”. ",
+      "autoria": "Marabel Morgan)",
+      "modelo": "modelo3",
       "id": 5
     },
     {
-      "conteudo": "Siga firme na caminhada",
-      "autoria": "DEV",
+      "conteudo": "“O talento vence jogos, mas só o trabalho em equipe vence campeonatos”",
+      "autoria": "Michael Jordan",
       "modelo": "modelo1",
       "id": 6
     },
     {
-      "conteudo": "Já deu certo :D ",
-      "autoria": "Deus",
+      "conteudo": "“Lembre sempre que a sua vontade de triunfar é mais importante do que qualquer outra coisa”.",
+      "autoria": "Abraham Lincoln",
       "modelo": "modelo2",
       "id": 7
+    },
+    {
+      "conteudo": "“Mesmo que já tenhas feito uma longa caminhada, há sempre um novo caminho a fazer”",
+      "autoria": "Santo Agostinho",
+      "modelo": "modelo3",
+      "id": 8
     }
   ]
 }
