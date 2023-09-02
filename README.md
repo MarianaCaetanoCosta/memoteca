@@ -1,5 +1,8 @@
 # Memoteca
 
+Curso Angular 14 - aplique os conceitos e desenvolva seu primeiro CRUD
+
+## Angular
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
 
 ## Development server
